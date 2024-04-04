@@ -1,5 +1,9 @@
+<?php
+include 'verificacaoSetor.php'; 
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,11 +16,11 @@
             position: relative;
             text-align: center;
             font-size: 30px;
-            font-family: 'Courier New', Courier, monospace;
-        }
+            font-family: 'Courier New', Courier, monospace; }
     </style>
 </head>
 <body>
-    <p>Bem-vindo a tela de Administrador</p>
+    <p>Bem-vindo a tela de Suporte</p>
+    <a href="logout.php">Sair</a>
 </body>
 </html>
